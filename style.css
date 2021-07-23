@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background: linear-gradient(-190.78deg, rgba(0, 55, 0, 1.0) -0.51%, rgba(0, 55, 0, 0.8) 99.39%);
+    background: linear-gradient(-190.78deg, rgba(0, 55, 0, 1.0) -0.51%, rgba(0, 105, 0, 1) 99.39%);
     font-family:'Poppins', sans-serif
 }
 
@@ -109,14 +109,13 @@ button:hover {
 /* Header ===================== */
 header {
     background: linear-gradient(89.78deg, rgba(0, 35, 0, 0.5) -0.51%, rgba(0, 100, 0, 0.3) 99.39%);
-    padding: 2rem 0 10rem;
+    padding: 0.5rem 0 8rem;
     text-align: center;
     border-bottom: 1px solid rgb(255, 255, 255, 1);
 }
 
-#logo {
-    color: #fff;
-    font-weight: 100;
+.logo {
+    max-width: 110px;
 }
 
 /* Balance ===================== */
@@ -164,7 +163,7 @@ header {
 #transaction {
     display: block;
     width: 100%;
-    min-height: 620px;
+    min-height: 580px;
     overflow-x: auto;
     border-bottom: 1px solid rgb(255, 255, 255, 1);
 }
